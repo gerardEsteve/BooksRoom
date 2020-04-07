@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.booksroom.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="100"
+        android:title="sort"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="search"
+        appcompat:actionViewClass="androidx.appcompat.widget.SearchView"
+        appcompat:showAsAction="always"/>
+
+</menu>

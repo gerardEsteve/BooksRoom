@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/textViewDescripcion"
+        style="@style/text_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/checkbox_off_background"
+        android:hint="descripcion" />
+
+    <TextView
+        android:id="@+id/textViewDescripcionClicked"
+        style="@style/text_view_style_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/checkbox_on_background"
+        android:hint="descripcion" />
+
+
+</LinearLayout>

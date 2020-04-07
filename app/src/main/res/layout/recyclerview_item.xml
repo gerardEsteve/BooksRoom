@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_view_style"
+        android:hint="Titulo"/>
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Autor"
+        style="@style/text_view_style_pequeño"
+         />
+
+    <TextView
+        android:id="@+id/textViewEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Editorial"
+        style="@style/text_view_style_pequeño"
+        />
+
+    <TextView
+        android:id="@+id/textViewAño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año de publicacion"
+        style="@style/text_view_style_pequeño"
+        />
+
+    <TextView
+        android:id="@+id/textViewFavorito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario favorito"
+        style="@style/text_view_style_pequeño"
+        />
+
+</LinearLayout>
